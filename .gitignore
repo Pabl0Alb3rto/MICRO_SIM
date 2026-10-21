@@ -1,0 +1,27 @@
+# --- Entorno virtual de Python (cada ordenador crea el suyo) ---
+.venv/
+
+# --- Cachés que Python genera solo ---
+__pycache__/
+*.pyc
+
+# --- Copias automáticas de Jupyter ---
+.ipynb_checkpoints/
+
+# --- Dependencias y compilados de la app web (para más adelante) ---
+node_modules/
+dist/
+
+# --- Resultados pesados de simulación ---
+*.npy
+*.npz
+*.h5
+
+# --- Configuración personal del editor y de Claude Code ---
+.vscode/
+.claude/settings.local.json
+
+# --- Basura del sistema operativo ---
+Thumbs.db
+desktop.ini
+.DS_Store
